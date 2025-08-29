@@ -1,6 +1,14 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class Input {
-    
-    
+public class Input{
+    public static void main(String[] args){
+        Scanner Sc = new Scanner(System.in);
+        int a = Sc.nextInt();
+        int b = Sc.nextInt();
+        int sum = a + b;
+        System.out.print(sum);
+
+
+    }
+
 }

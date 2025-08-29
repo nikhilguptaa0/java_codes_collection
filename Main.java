@@ -1,6 +1,10 @@
 public class Main{
-    public static void Main(String[] args){
-        System.out.println("Hwelk");
+    public static void main(String[] args){
+        int a = 5;
+        int b = 10;
+        int Sum = a + b;
+        System.out.println(Sum);
 
     }
-}`
+
+}
